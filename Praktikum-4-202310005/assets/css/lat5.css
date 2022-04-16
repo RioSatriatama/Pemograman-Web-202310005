@@ -1,0 +1,108 @@
+
+  #artikel{
+      border: 1px solid;
+    margin: 50px;
+   display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .kampus{
+      margin: 20px;
+    width: 250px;
+    height: 500px;
+    background-color: purple;
+    
+  }
+  
+  .kampus > h2{
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+  
+  .kampus > img {
+    width: 250px;
+    height: 420px;
+  }
+  
+.VisiMisi > h2{
+    color: purple;
+}
+
+  .hewan > p{
+    padding: 5px;
+  }
+
+  #Section{
+    border: 1px solid;
+  margin: 50px;
+ display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+  .Peta{
+      margin: 20px;
+      border: 1px solid;
+  }
+
+  .Peta> iframe{
+      padding: 15px;
+    
+  }
+
+  .Peta > h2{
+      text-align: center;
+      color: purple;
+  }
+  
+  .matkul{
+    border: 1px solid;
+    margin: 20px 0px 50px 0px;
+    padding: 10px;
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+    
+  }
+  .matkul > h2{
+    color: purple;
+  }
+
+  .matkul > table {
+    border: 1px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+.matkul > table th {
+    border-width: 1px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.matkul > table td {
+    border-width: 1px;
+    padding-left: 8px;
+    border-style: solid;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    border-color: blue;
+    color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: black;
+}
